@@ -1,1 +1,1 @@
-console.log("Hello DevOps Team")
+console.log("Declare variables - not war")
