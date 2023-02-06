@@ -1,0 +1,2 @@
+# sample
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/65515bc900204c629ee333211cec43fb)](https://app.codacy.com/gh/wohligakash/sample?utm_source=github.com&utm_medium=referral&utm_content=wohligakash/sample&utm_campaign=Badge_Grade_Settings)
