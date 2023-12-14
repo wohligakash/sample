@@ -27,7 +27,7 @@ jobs:
         
           
           # git clone https://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@github.com/swarajwohlig2107/sample-gitops.git
-          git clone https://wohligakash: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@github.com/wohligakash/configmap-rnd-gitops.git --branch main
+          git clone https://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@github.com/wohligakash/configmap-rnd-gitops.git --branch main
 
           # https://github.com/wohligakash/configmap-rnd-gitops.git
           cd configmap-rnd-gitops
