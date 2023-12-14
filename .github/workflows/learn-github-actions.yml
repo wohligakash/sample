@@ -18,7 +18,7 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker login -u wohligakash -p Docker@7411
+          docker login -u wohligakash -p dckr_pat_vxGVKHxz4zSshfCab0G3zEjegEA
           docker build -t wohligakash/skyyyyyyyyy:$GITHUB_REF_NAME-$GITHUB_SHA .
           docker push wohligakash/skyyyyyyyyy:$GITHUB_REF_NAME-$GITHUB_SHA
           
