@@ -29,10 +29,12 @@ jobs:
           git clone https://wohligakash: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@github.com/wohligakash/configmap-rnd-gitops.git --branch main
 
           cd configmap-rnd-gitops
-          git checkout main
+          # git checkout main
+          git status
+          # git checkout main
           git config user.name "wohligakash"
           git config user.email "akash.pawar@wohlig.com"
           yq e '.spec.template.spec.containers[0].image = "wohligakash/skyyyyyyyyy:${{ env.GITHUB_BRANCH }}"' -i deployment.yaml
           git add .
           git commit -m "updating newer image"
-          git push origin main
+          git push main
