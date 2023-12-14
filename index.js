@@ -1,1 +1,1 @@
-console.log("Declare variables - not war")
+console.log(`Hello ${process.env.name1}, Hello ${process.env.name2}`);
